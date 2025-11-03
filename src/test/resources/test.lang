@@ -1,0 +1,10 @@
+int x = 10;
+int x = 20;
+y = 5;
+int z = true;
+if (true) {
+  if (x) {
+    print(1);
+  }
+  z = x + false;
+}

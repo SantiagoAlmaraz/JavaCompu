@@ -1,0 +1,43 @@
+Pegar en src/test/resources/test.lang
+--------CODIGO VALIDO-------
+
+int total = 100;
+int x = 5;
+print(total);
+print(x);
+total = total + x;
+print(total);
+if (true) {
+  int x = 20;
+  int y = 2;
+  print(x);
+  total = total - x;
+  print(total);
+  print(y);
+}
+if (false) {
+  int z = 999;
+  print(z);
+  total = 0;
+}
+print(total);
+print(x);
+total = total - x;
+print(total);
+
+-----------------------------------
+====================================
+---------CODIGO INVALIDO----------
+
+int x = 10;
+int x = 20;
+y = 5;
+int z = true;
+if (true) {
+  if (x) {
+    print(1);
+  }
+  z = x + false;
+}
+
+--------------------------
